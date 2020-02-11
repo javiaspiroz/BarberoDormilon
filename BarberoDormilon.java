@@ -103,7 +103,7 @@ El semáforo (1) construye un semáforo binario, como se desee. */
 		Barber giovanni = new Barber();  //Giovanni es el mejor barbero de todos los tiempos
 		giovanni.start(); //Listo para otro día de trabajo.
 
-		for (int i=1; i<800; i++) {//15 es el numero de clientes totales, se pueden poner los que queramos
+		for (int i=1; i<16; i++) {//15 es el numero de clientes totales, se pueden poner los que queramos
 			Customer aCustomer = new Customer(i);
 			aCustomer.start();
 			try {
